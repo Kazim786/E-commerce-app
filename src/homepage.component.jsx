@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomePage = () => {
+const HomePage = () => (
     <div className = 'homepage'>
         <div className = 'directory-menu'>
             <div className= 'menu-item'>
@@ -36,6 +36,6 @@ const HomePage = () => {
         </div>
 
     </div>
-}
+)
 
 export default HomePage
