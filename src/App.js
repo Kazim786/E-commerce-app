@@ -16,7 +16,7 @@ const HatsPage = () => (
         <div>
           <Switch>
           <Route exact path = '/' component={HomePage} />
-          <Route exact path = '/shop' component={HatsPage} />
+          <Route exact path = '/shop' component={ShopPage} />
           </Switch>
         </div>
       );
