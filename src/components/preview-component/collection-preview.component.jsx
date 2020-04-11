@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/apple/E-Commerce/king-clothing/src/components/preview-component/collection-preview..style.scss'
+import '/Users/apple/E-Commerce/king-clothing/src/components/preview-component/collection-preview.style.scss'
 import CollectionItem from '../collection-item/collection-item'
 
 const CollectionPreview = ({title, items}) => (
