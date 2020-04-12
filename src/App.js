@@ -34,20 +34,21 @@ import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-cl
         if (userAuth) {
           const userRef = await createUserProfileDocument(userAuth);
 
-          userRef onSnapshot(snapShot => {
-            this.setState({
-              currentUser: {
-                id: snapShot.id,
-                ...snapShot.data()
+          userRef.onSnapshot (snapShot => {
+            this.setState(
+              {
+                currentUser: {
+                  id: snapShot.id,
+                  ...snapShot.data()
               }
             }, 
             () => {
-              console.log(this.state)
+              console.log(this.state);
             }
-            })
+            )
 
           })
-          console.log(this.state);
+          
         }
         else {
           this.setState({currentUser: userAuth });
