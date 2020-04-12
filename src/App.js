@@ -5,7 +5,7 @@ import HomePage from './pages/homepage/homepage.component'
 import ShopPage from './pages/shop/shop.component'
 import SignInAndSignUpPage from './pages/sign-in-and-sign-out-page/sign-in-and-sign-out-page.component'
 import Header from './components/header/header.component'
-import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
+import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
 
 
 // const HatsPage = () => (
@@ -29,9 +29,10 @@ import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebas
 
     componentDidMount() {
 
-      this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
-        this.setState({ currentUser: user });
-        console.log(user);
+      this.unsubscribeFromAuth = auth.onAuthStateChanged(async user => {
+        // this.setState({ currentUser: user });
+        createUserProfileDocument(user);
+        
       })
     }
 
