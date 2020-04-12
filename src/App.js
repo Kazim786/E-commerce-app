@@ -29,9 +29,29 @@ import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-cl
 
     componentDidMount() {
 
-      this.unsubscribeFromAuth = auth.onAuthStateChanged(async user => {
+      this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
         // this.setState({ currentUser: user });
-        createUserProfileDocument(user);
+        if (userAuth) {
+          const userRef = await createUserProfileDocument(userAuth);
+
+          userRef onSnapshot(snapShot => {
+            this.setState({
+              currentUser: {
+                id: snapShot.id,
+                ...snapShot.data()
+              }
+            }, 
+            () => {
+              console.log(this.state)
+            }
+            })
+
+          })
+          console.log(this.state);
+        }
+        else {
+          this.setState({currentUser: userAuth });
+        }
         
       })
     }
