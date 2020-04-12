@@ -41,11 +41,8 @@ import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-cl
                   id: snapShot.id,
                   ...snapShot.data()
               }
-            }, 
-            () => {
-              console.log(this.state);
-            }
-            )
+            })
+            
 
           })
           
