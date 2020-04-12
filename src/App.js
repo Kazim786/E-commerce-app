@@ -61,7 +61,7 @@ import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-cl
       render(){
         return (
           <div>
-            <Header currentUser= {this.state.currentUser}/>
+            <Header />
             <Switch>
             <Route exact path = '/' component={HomePage} />
             <Route exact path = '/shop' component={ShopPage} />
