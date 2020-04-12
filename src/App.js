@@ -5,7 +5,7 @@ import HomePage from './pages/homepage/homepage.component'
 import ShopPage from './pages/shop/shop.component'
 import SignInAndSignUpPage from './pages/sign-in-and-sign-out-page/sign-in-and-sign-out-page.component'
 import Header from './components/header/header.component'
-import { auth } from './firebase/firebase.util';
+import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
 
 
 // const HatsPage = () => (
@@ -15,22 +15,23 @@ import { auth } from './firebase/firebase.util';
 
 // )
   
-  class  App extends React.Component () {
+  class App extends React.Component {
     constructor(){
       super();
 
       this.state = {
         currentUser: null
-      }
+      };
     }
 
 
-    unsubscribeFromAuth = null 
+    unsubscribeFromAuth = null; 
 
-    componentDidMount(){
+    componentDidMount() {
 
       this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
         this.setState({ currentUser: user });
+        console.log(user);
       })
     }
 
@@ -41,7 +42,7 @@ import { auth } from './firebase/firebase.util';
       render(){
         return (
           <div>
-            <Header />
+            <Header currentUser= {this.state.currentUser}/>
             <Switch>
             <Route exact path = '/' component={HomePage} />
             <Route exact path = '/shop' component={ShopPage} />

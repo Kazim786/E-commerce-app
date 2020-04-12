@@ -11,15 +11,15 @@ const config = {
     messagingSenderId: "371709961541",
     appId: "1:371709961541:web:9e940d9eb17f3d6ec88a2c",
     measurementId: "G-8SQGKZMNCT"
-  };
+    };
 
-  firebase.initializeApp(config);
+    firebase.initializeApp(config);
 
-  export const auth = firebase.auth();
-  export const firestore = firebase.firestore();
+    export const auth = firebase.auth();
+    export const firestore = firebase.firestore();
 
-  const provider = new firebase.auth.GoogleAuthProvider();
-  provider.setCustomParameters({ promp: 'select_account'});
-  export const signInWithGoogle = () => auth.signInWithPopup(provider);
+    const provider = new firebase.auth.GoogleAuthProvider();
+    provider.setCustomParameters({ promp: 'select_account'});
+    export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
-  export default firebase;
+    export default firebase;
