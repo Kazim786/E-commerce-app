@@ -27,7 +27,7 @@ import { auth } from './firebase/firebase.util';
     componentDidMount(){
       auth.onAuthStateChanged(user => {
         this.setState({ currentUser: user });
-      }
+      })
     }
 
       render(){
