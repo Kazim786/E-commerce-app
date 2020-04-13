@@ -5,7 +5,7 @@ import {
   clearItemFromCart,
   addItem,
   removeItem
-} from '../../redux/cart/cart.actions';
+} from '/Users/apple/E-Commerce/king-clothing/src/redux/cart/cart.action.js';
 
 import './checkout-item.styles.scss';
 

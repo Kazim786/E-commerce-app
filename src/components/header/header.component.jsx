@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
-import { auth } from '../../firebase/firebase.utils';
+import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
-import { selectCurrentUser } from '../../redux/user/user.selectors';
+import { selectCurrentUser } from '/Users/apple/E-Commerce/king-clothing/src/redux/user/user.selector.js';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '/Users/apple/E-Commerce/king-clothing/src/assets/king.svg';
 
 import './header.styles.scss';
 
