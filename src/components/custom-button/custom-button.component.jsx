@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './custom-buttom.styles.scss';
+import '/Users/apple/E-Commerce/king-clothing/src/components/custom-button/custom-button.styles.scss';
 
 const CustomButton = ({
   children,

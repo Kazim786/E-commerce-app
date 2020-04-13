@@ -5,13 +5,13 @@ import { createStructuredSelector } from 'reselect';
 
 import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
 import CartIcon from '../cart-icon/cart-icon.component';
-import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+import CartDropdown from '/Users/apple/E-Commerce/king-clothing/src/components/cart--dropdown/cart-dropdown.component.jsx';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '/Users/apple/E-Commerce/king-clothing/src/redux/user/user.selector.js';
 
 import { ReactComponent as Logo } from '/Users/apple/E-Commerce/king-clothing/src/assets/king.svg';
 
-import './header.styles.scss';
+import '/Users/apple/E-Commerce/king-clothing/src/components/header/header.style.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>

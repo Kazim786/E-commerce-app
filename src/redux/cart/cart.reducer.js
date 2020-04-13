@@ -1,4 +1,4 @@
-import CartActionTypes from './cart.types';
+import CartActionTypes from '/Users/apple/E-Commerce/king-clothing/src/redux/cart/cart.type.js';
 import { addItemToCart, removeItemFromCart } from './cart.utils';
 
 const INITIAL_STATE = {

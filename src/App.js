@@ -6,10 +6,10 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
-import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import SignInAndSignUpPage from '/Users/apple/E-Commerce/king-clothing/src/pages/sign-in-and-sign-out-page/sign-in-and-sign-out-page.component.jsx';
 import CheckoutPage from './pages/checkout/checkout.component'
 import Header from './components/header/header.component';
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector'
 

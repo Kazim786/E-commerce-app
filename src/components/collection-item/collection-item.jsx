@@ -2,9 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import CustomButton from '../custom-button/custom-button.component';
-import { addItem } from '../../redux/cart/cart.actions';
+import { addItem } from '/Users/apple/E-Commerce/king-clothing/src/redux/cart/cart.action.js';
 
-import './collection-item.styles.scss';
+import '/Users/apple/E-Commerce/king-clothing/src/components/collection-item/collection-item.style.scss';
 
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;

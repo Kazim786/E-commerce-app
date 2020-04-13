@@ -3,7 +3,7 @@ import React from 'react';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
 
-import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
+import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
 
 import './sign-up.styles.scss';
 

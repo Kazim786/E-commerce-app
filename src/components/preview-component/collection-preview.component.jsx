@@ -1,8 +1,8 @@
 import React from 'react';
 
-import CollectionItem from '../collection-item/collection-item.component';
+import CollectionItem from '/Users/apple/E-Commerce/king-clothing/src/components/collection-item/collection-item.jsx';
 
-import './collection-preview.styles.scss';
+import '/Users/apple/E-Commerce/king-clothing/src/components/preview-component/collection-preview.style.scss';
 
 const CollectionPreview = ({ title, items }) => (
   <div className='collection-preview'>

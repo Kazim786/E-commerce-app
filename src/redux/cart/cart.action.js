@@ -1,4 +1,4 @@
-import CartActionTypes from './cart.types';
+import CartActionTypes from '/Users/apple/E-Commerce/king-clothing/src/redux/cart/cart.type.js';
 
 export const toggleCartHidden = () => ({
   type: CartActionTypes.TOGGLE_CART_HIDDEN
