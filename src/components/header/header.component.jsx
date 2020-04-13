@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { auth } from '../../firebase/firebase.utils';
-import CartIcon from '../cart-icon/cart-icon.component';
+import CartIcon from '/Users/apple/E-Commerce/king-clothing/src/assets/carrt.svg';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '/Users/apple/E-Commerce/king-clothing/src/assets/king.svg';
 
 import './header.styles.scss';
 
