@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { auth } from '../../firebase/firebase.utils';
+import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js;
 import CartIcon from '/Users/apple/E-Commerce/king-clothing/src/assets/carrt.svg';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
