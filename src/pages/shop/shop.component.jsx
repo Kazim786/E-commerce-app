@@ -5,9 +5,8 @@ import CollectionsOverview from '/Users/apple/E-Commerce/king-clothing/src/compo
 
 const ShopPage = ({ collections }) => (
       <div className='shop-page'>
-        {collections.map(({ id, ...otherCollectionProps }) => (
           <CollectionsOverview />
-        ))}
+        
       </div>
     );
 
