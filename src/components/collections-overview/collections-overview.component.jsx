@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 import '/Users/apple/E-Commerce/king-clothing/src/components/collections-overview/collections-overview.styles.scss'
 import CollectionPreview from '../preview-component/collection-preview.component'
-import {selectCollections} from '/Users/apple/E-Commerce/king-clothing/src/redux/shop-redux/shop.selectors.js'
+import {selectCollectionsForPreview} from '/Users/apple/E-Commerce/king-clothing/src/redux/shop-redux/shop.selectors.js'
 
 
 const CollectionsOverview = ({ collections }) => (
@@ -16,7 +16,7 @@ const CollectionsOverview = ({ collections }) => (
 )
 
 const mapStateToProps = createStructuredSelector({
-    collections: selectCollections
+    collections: selectCollectionsForPreview
     })
 
 
