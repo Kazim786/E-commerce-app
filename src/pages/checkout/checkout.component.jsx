@@ -4,6 +4,10 @@ import { createStructuredSelector } from 'reselect';
 
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 
+import StripeCheckoutButton from '/Users/apple/E-Commerce/king-clothing/src/components/stripe-button/stripe-button.component.jsx'
+
+
+
 import {
   selectCartItems,
   selectCartTotal
@@ -34,6 +38,7 @@ const CheckoutPage = ({ cartItems, total }) => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     <div className='total'>TOTAL: ${total}</div>
+    <StripeCheckoutButton price= {total} />
   </div>
 );
 
