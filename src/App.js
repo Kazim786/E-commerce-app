@@ -13,6 +13,8 @@ import { auth, createUserProfileDocument } from '/Users/apple/E-Commerce/king-cl
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector'
 
+import Alert from './components/song/song.component'
+
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
@@ -42,6 +44,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Alert />
         <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
