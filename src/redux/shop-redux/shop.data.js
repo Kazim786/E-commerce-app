@@ -208,8 +208,8 @@ const SHOP_DATA = {
       items: [
         {
           id: 1,
-          name: 'Camo Down Vest',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+          name: 'Elegant But Simple',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/3/3/33114_3_.jpg',
           price: 325
         },
         {
