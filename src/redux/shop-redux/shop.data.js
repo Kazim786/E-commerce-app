@@ -214,32 +214,32 @@ const SHOP_DATA = {
         },
         {
           id: 2,
-          name: 'Floral T-shirt',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+          name: 'Black Vest with Kameez',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/2/7/27338_2_.jpg',
           price: 20
         },
         {
           id: 3,
-          name: 'Black & White Longsleeve',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+          name: 'Black Longsleeve',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/3/0/30969_3_.jpg',
           price: 25
         },
         {
           id: 4,
-          name: 'Pink T-shirt',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+          name: 'Black Kurta',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/3/0/30997_3_.jpg',
           price: 25
         },
         {
           id: 5,
-          name: 'Jean Long Sleeve',
-          imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+          name: 'Collared Gray Kurta',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/3/2/32383_2_.jpg',
           price: 40
         },
         {
           id: 6,
-          name: 'Burgundy T-shirt',
-          imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+          name: 'Humble Prince',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/3/6/36652_2_.jpg',
           price: 25
         }
       ]
