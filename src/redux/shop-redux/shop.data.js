@@ -214,8 +214,8 @@ const SHOP_DATA = {
         },
         {
           id: 2,
-          name: 'Black Vest with Kameez',
-          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/2/7/27338_2_.jpg',
+          name: 'The Crowned Prince',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/small_image/524x524/beff4985b56e3afdbeabfc89641a4582/j/j/jjsw-486_1_.jpg',
           price: 20
         },
         {
