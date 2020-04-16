@@ -159,38 +159,38 @@ const SHOP_DATA = {
       items: [
         {
           id: 1,
-          name: 'Blue Tanktop',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+          name: 'Desert Queen',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/j/p/jpwk-20-348-h.jpg',
           price: 25
         },
         {
           id: 2,
-          name: 'Floral Blouse',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+          name: 'Turquiose Dress',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/j/p/jpwk-20-419-2.jpg',
           price: 20
         },
         {
           id: 3,
-          name: 'Floral Dress',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+          name: 'The Elegant Princess',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/j/f/jfu-19-003_2_.jpg',
           price: 80
         },
         {
           id: 4,
-          name: 'Red Dots Dress',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+          name: 'The Shy Princess',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/2/0/20-076-b_4_.jpg',
           price: 80
         },
         {
           id: 5,
-          name: 'Striped Sweater',
-          imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+          name: 'Beauty Queen',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/2/0/20-031_3__1.jpg',
           price: 45
         },
         {
           id: 6,
-          name: 'Yellow Track Suit',
-          imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+          name: 'The Black Light',
+          imageUrl: 'https://us.junaidjamshed.com/pub/media/catalog/product/cache/weltpixel_hover_image/524x524/beff4985b56e3afdbeabfc89641a4582/2/0/20-026s_3_.jpg',
           price: 135
         },
         {
