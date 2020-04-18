@@ -16,5 +16,5 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
     ) : null}
   </div>
 );
-
+// label ? - If i wanna add a label I can otherwise i dont have to
 export default FormInput;

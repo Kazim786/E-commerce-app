@@ -35,6 +35,8 @@ class SignIn extends React.Component {
 
     this.setState({ [name]: value });
   };
+  
+  // performs setState to whatever email and password is submitted and for lack of a bettter term updates the state. (State is immutable)
 
   render() {
     return (
