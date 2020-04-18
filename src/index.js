@@ -5,6 +5,8 @@ import { Provider } from 'react-redux';
 import {PersistGate } from 'redux-persist/integration/react';
 import {store, persistor} from './redux/store';
 
+//By importing BrowserRouter component from the react router dom
+// I have given the functionality of routing to the application
 
 import './index.css';
 import App from './App';

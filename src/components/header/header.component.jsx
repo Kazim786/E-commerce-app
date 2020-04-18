@@ -10,7 +10,7 @@ import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '/Users/apple/E-Commerce/king-clothing/src/redux/user/user.selector.js';
 
 import { ReactComponent as Logo } from '/Users/apple/E-Commerce/king-clothing/src/assets/king.svg';
-
+// now logo will act as a component
 import '/Users/apple/E-Commerce/king-clothing/src/components/header/header.style.scss';
 
 const Header = ({ currentUser, hidden }) => (
@@ -18,11 +18,12 @@ const Header = ({ currentUser, hidden }) => (
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
     </Link>
+    {/* logo routes to home */}
     <div className='options'>
       <Link className='option' to='/shop'>
         SHOP
       </Link>
-      <Link className='option' to='/shop'>
+      <Link className='option' to='/Contact'>
         CONTACT
       </Link>
       {currentUser ? (

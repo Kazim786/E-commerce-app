@@ -16,5 +16,7 @@ const CollectionPreview = ({ title, items }) => (
     </div>
   </div>
 );
-
+// uses index and displays first 4 items of each category
+//References shop data and when the CollectionPreview component is called within the shopPage 
+//it will initiate its task
 export default CollectionPreview;

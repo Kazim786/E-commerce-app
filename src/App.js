@@ -44,9 +44,18 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Alert />
-        <Header />
+        <Alert /> 
+        {/* The song */}
+        <Header /> 
+        {/* Now header will always show */}
         <Switch>
+        {/* Switch will only render the first route that matches/includes the path. 
+        Once it finds the first route that matches the path, it will not look for any other matches */}
+        {/* exact property in Route component requires the URL to exactly match the path precisely for it to render.
+        It takes away partial matching*/}
+        {/* included Switch to have more control over the routing. 
+        It allows the matching aspect of 
+        exact to not interfere in the rendering of the other pages  */}
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
@@ -61,6 +70,7 @@ class App extends React.Component {
               )
             }
           />
+          {/* ternary operator ^^ */}
         </Switch>
       </div>
     );

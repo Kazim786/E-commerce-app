@@ -6,7 +6,13 @@ import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
 
+
+
+
+
 const Directory = ({ sections }) => (
+  //Used spread operator because it integrates the 
+  //object key values without forcing me to write everything I need out
       <div className='directory-menu'>
         {sections.map(({ id, ...otherSectionProps }) => (
           <MenuItem key={id} {...otherSectionProps} />

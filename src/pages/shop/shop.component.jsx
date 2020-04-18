@@ -10,6 +10,8 @@ const ShopPage = ({match}) => (
       </div>
     );
 
+    // routes for the shoppage
+
 
 
 
