@@ -27,3 +27,6 @@ const rootReducer = combineReducers({
 })
 
 export default persistReducer(persistConfig, rootReducer)
+
+// allows to save the redux store in the local storage of your browser.
+//now refreshing the screen will not result in deletion of data

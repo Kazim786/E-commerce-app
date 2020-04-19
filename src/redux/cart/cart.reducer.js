@@ -6,6 +6,8 @@ const INITIAL_STATE = {
   cartItems: []
 };
 
+//reducer takes the state and action as arguments and then it returns the new state
+
 //dropdown is hidden
 
 const cartReducer = (state = INITIAL_STATE, action) => {
@@ -21,6 +23,7 @@ const cartReducer = (state = INITIAL_STATE, action) => {
         ...state,
         cartItems: addItemToCart(state.cartItems, action.payload)
       };
+      //adding items to the cartItems array
     case CartActionTypes.REMOVE_ITEM:
       return {
         ...state,
