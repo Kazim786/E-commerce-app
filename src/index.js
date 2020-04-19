@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import {PersistGate } from 'redux-persist/integration/react';
+//This delays the rendering of your app’s UI until 
+//your persisted state has been retrieved and saved to redux.
 import {store, persistor} from './redux/store';
 
 //By importing BrowserRouter component from the react router dom

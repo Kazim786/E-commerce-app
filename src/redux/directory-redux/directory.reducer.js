@@ -42,5 +42,6 @@ const directoryReducer = (state = INITIAL_STATE, action) => {
             return state;
     }
 };
+//I dont want to modify the the state of this info
 
 export default directoryReducer;

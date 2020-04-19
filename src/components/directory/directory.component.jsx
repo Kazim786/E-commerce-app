@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
+//returns an object with the same keys as the inputSelectors argument, 
+//but with the selectors replaced with their values
 import { selectDirectorySections } from '../../redux/directory-redux/directory.selectors';
 import MenuItem from '../menu-item/menu-item.component';
 

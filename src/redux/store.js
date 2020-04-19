@@ -14,4 +14,5 @@ const middlewares = [logger];
 export const store = createStore(rootReducer, applyMiddleware(...middlewares))
 //this'll spread all of the elements from within the middleware array as individual arguments
 export const persistor = persistStore(store);
+//helps retain sessions -  allowing to save the redux store in the local storage of your browser.
 export default {store, persistor };
