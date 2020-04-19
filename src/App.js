@@ -84,6 +84,7 @@ class App extends React.Component {
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
 });
+//added redirect component to react router dom so signed in user cant access sign in/sign up page - line 71
 //is used for selecting the part of 
 //the data from the store that the connected component needs
 
