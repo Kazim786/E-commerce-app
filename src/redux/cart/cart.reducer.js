@@ -6,12 +6,15 @@ const INITIAL_STATE = {
   cartItems: []
 };
 
+//dropdown is hidden
+
 const cartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case CartActionTypes.TOGGLE_CART_HIDDEN:
       return {
         ...state,
         hidden: !state.hidden
+        //if its hidden it will show
       };
     case CartActionTypes.ADD_ITEM:
       return {

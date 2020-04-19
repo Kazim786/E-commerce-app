@@ -6,3 +6,5 @@ const CartActionTypes = {
   };
   
   export default CartActionTypes;
+
+  //made for consistency

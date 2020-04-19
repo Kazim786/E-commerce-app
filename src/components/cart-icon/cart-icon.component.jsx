@@ -6,7 +6,7 @@ import { toggleCartHidden } from '/Users/apple/E-Commerce/king-clothing/src/redu
 import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 
 import { ReactComponent as ShoppingIcon } from '/Users/apple/E-Commerce/king-clothing/src/assets/carrt.svg';
-
+//cart icon will now be a component of react 
 import './cart-icon.styles.scss';
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
@@ -19,10 +19,12 @@ const CartIcon = ({ toggleCartHidden, itemCount }) => (
 const mapDispatchToProps = dispatch => ({
   toggleCartHidden: () => dispatch(toggleCartHidden())
 });
+//dispatches action to the store. It will show or hide when its clicked
 
 const mapStateToProps = createStructuredSelector({
   itemCount: selectCartItemsCount
 });
+//the initial state is extracted from the store
 
 export default connect(
   mapStateToProps,
