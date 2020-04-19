@@ -15,7 +15,7 @@ const config = {
 
     export const createUserProfileDocument = async (userAuth, additionalData) => {
         if (!userAuth) return;
-
+        //if userAuth doesnt exist then exit from this function because this'll only work for someone thats signed in
         const userRef = firestore.doc(`users/${userAuth.uid}`)
         const snapShot = await userRef.get()
         if(!snapShot.exists){
@@ -44,6 +44,7 @@ const config = {
 
     const provider = new firebase.auth.GoogleAuthProvider();
     provider.setCustomParameters({ promp: 'select_account'});
+    //^^ this will provide that pop up which allows u to select an account to use to sign up/sign in to your account
     export const signInWithGoogle = () => auth.signInWithPopup(provider);
-
+    // this will enable google sign in. O Auth enabled for google
     export default firebase;

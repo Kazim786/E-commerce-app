@@ -12,7 +12,8 @@ const userReducer = (state = INITIAL_STATE, action) => {
                 ...state, 
                 currentUser: action.payload
             }
-
+//the action is to set current user. So the switch returns the state in a spread operator
+// but it sets the currentUser to action.payload (which is the value of the signed in user)
         default:
             return state;
 

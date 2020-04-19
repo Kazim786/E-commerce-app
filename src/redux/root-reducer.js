@@ -7,6 +7,7 @@ import cartReducer from './cart/cart.reducer'
 import directoryReducer from './directory-redux/directory.reducer'
 import shopReducer from './shop-redux/shop.reducer'
 
+//composed of all the reducers
 
 const persistConfig = {
     key: 'root',

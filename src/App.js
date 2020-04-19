@@ -17,7 +17,7 @@ import Alert from './components/song/song.component'
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
-
+//to prevent memory leak ^^
   componentDidMount() {
     const { setCurrentUser } = this.props;
 
@@ -40,6 +40,9 @@ class App extends React.Component {
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
+  //Now subscription is closed once this lifecycle methods called
+  //first time auth state changes, we will log the string, 
+  //then immediately unsubscribe from further changes
 
   render() {
     return (

@@ -34,6 +34,7 @@ const Header = ({ currentUser, hidden }) => (
         <Link className='option' to='/signin'>
           SIGN IN
         </Link>
+        //The ternary operator is evaluating if there is a current user logged in then show the signout otherwise show sign in
       )}
       <CartIcon />
     </div>
