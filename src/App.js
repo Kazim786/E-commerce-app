@@ -29,10 +29,11 @@ class App extends React.Component {
           setCurrentUser({
             id: snapShot.id,
             ...snapShot.data()
+            //this.props.setCurrentUser replaced by only setCurrentUser b/c of line 22
           });
         });
       }
-
+      //this.setState({currentUser: userAuth}) replaced by setCurrentUser(userAuth); b/c of line 22
       setCurrentUser(userAuth);
     });
   }
@@ -83,10 +84,13 @@ class App extends React.Component {
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
 });
+//is used for selecting the part of 
+//the data from the store that the connected component needs
 
 const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 });
+//dispatching actions to the store.
 
 export default connect(
   mapStateToProps,

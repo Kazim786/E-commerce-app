@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+//so header receives the current value of user from the user reducer
+//connect is a higher order component that takes in components as arguments
 import { createStructuredSelector } from 'reselect';
 
 import { auth } from '/Users/apple/E-Commerce/king-clothing/src/firebase/firebase.util.js';
@@ -42,6 +44,8 @@ const Header = ({ currentUser, hidden }) => (
   </div>
 );
 
+
+//by doing this the value of current user is null (of course until someone logs in)
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser,
   hidden: selectCartHidden

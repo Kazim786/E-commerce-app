@@ -12,7 +12,7 @@ import './index.css';
 import App from './App';
 
 //surrounding the application with 
-//provider gives all components access to the store
+//provider gives all components access to the store. Components can dispatch actions to it or retrieve info
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
