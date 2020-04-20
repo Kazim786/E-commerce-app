@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
+//allow me to memoize and not re-render 
+//a component if the state value does not change
 import { withRouter } from 'react-router-dom';
 
 import CustomButton from '../custom-button/custom-button.component';

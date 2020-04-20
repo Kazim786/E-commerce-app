@@ -18,6 +18,7 @@ const CollectionsOverview = ({ collections }) => (
 const mapStateToProps = createStructuredSelector({
     collections: selectCollectionsForPreview
     })
+    //turns my objects into an array by creating the new selector
 
 
     export default connect(mapStateToProps)(CollectionsOverview)

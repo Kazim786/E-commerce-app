@@ -1,3 +1,5 @@
+//Selectors are functions that take Redux state 
+//as an argument and return some data to pass to the component.
 import { createSelector } from 'reselect'
 
 const selectShop = state => state.shop;
