@@ -6,6 +6,8 @@ import { addItem } from '/Users/apple/E-Commerce/king-clothing/src/redux/cart/ca
 
 import '/Users/apple/E-Commerce/king-clothing/src/components/collection-item/collection-item.style.scss';
 
+
+//This is the component that is repeated all throughout the site with different pics and prices
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
 
