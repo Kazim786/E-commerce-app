@@ -22,3 +22,4 @@ const mapStateToProps = createStructuredSelector({
 
 
     export default connect(mapStateToProps)(CollectionsOverview)
+    //connects to the store
