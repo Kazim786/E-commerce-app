@@ -29,3 +29,5 @@ export const removeItemFromCart = (cartItems, cartItemToRemove) => {
       : cartItem
   );
 };
+
+//different types of the actions written here so the code in the action file is more dynamic
