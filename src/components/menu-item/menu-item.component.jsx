@@ -33,3 +33,4 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
 
 export default withRouter(MenuItem);
 //withRouter powers up MenuItem. Now it has access to History, location, match etc
+//withRouter connects components to the router
